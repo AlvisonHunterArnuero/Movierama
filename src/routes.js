@@ -1,5 +1,5 @@
 import React from "react";
-const CardsMovies = React.lazy(() => import("./components/CardsMovies"));
+const MovieResults = React.lazy(() => import("./components/MovieResults"));
 const HomePage = React.lazy(() => import("./components/HomePage"));
 const Movie = React.lazy(() => import("./components/Movie"));
 
@@ -7,7 +7,7 @@ const routes = [
 	{
 		path: "/",
 		exact: true,
-		name: "card movies",
+		name: "HomePage",
 		component: HomePage,
 	},
 
@@ -15,7 +15,7 @@ const routes = [
 		path: "/movies",
 		exact: true,
 		name: "Movies",
-		component: CardsMovies,
+		component: MovieResults,
 	},
 	{
 		path: "/movies/:imdbID",

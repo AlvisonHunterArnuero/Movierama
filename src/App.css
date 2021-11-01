@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.movie-title {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color:#BB86FC;
+}
+
+.movie-summary-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
 .App {
   text-align: center;
 }

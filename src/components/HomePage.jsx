@@ -4,16 +4,29 @@ import Footer from "./Footer";
 import SearchBar from "./SearchBar";
 
 function HomePage() {
-  const [homePage, setHomePage] = useState([]);
-  let rndTopMovies = [
+  const rndTopMovies = [
     "harry potter",
     "star wars",
+    "transformers",
     "spider man",
+    "Batman",
+    "X-Men",
+    "Ip Man",
     "Pirates of the Caribbean",
     "avengers",
     "mission impossible",
     "fast and furious",
+    "Indiana Jones",
+    "Kill Bill",
+    "The Chronicles of Narnia",
+    "Back to the Future",
+    "The Godfather",
+    "Dark Knight",
+    "Lord Of The Rings",
   ];
+
+  const [homePage, setHomePage] = useState([]);
+
   let randomMovie = [];
   randomMovie.push(rndTopMovies[Math.floor(Math.random() * rndTopMovies.length)]);
   const getApi = async () => {
@@ -31,9 +44,9 @@ function HomePage() {
   return (
     <Fragment>
       <SearchBar />
-      <div className='grid grid-cols-3 gap-4'>
-        {homePage.map((item) => (
-          <Card item={item} />
+      <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4'>
+        {homePage.map((item, ind) => (
+          <Card key={ind} item={item} />
         ))}
       </div>
       <Footer />

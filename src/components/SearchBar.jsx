@@ -2,6 +2,8 @@ import React, { Fragment, useContext } from "react";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { DataContext } from "../context/DataProvider";
+import toast from 'react-hot-toast';
+const notify = () => toast.error('Please type the name of the movie to search.');
 
 function SearchBar() {
   const { input, setInput } = useContext(DataContext);
@@ -9,6 +11,10 @@ function SearchBar() {
 
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
+      if (event.target.value === "") {
+        notify();
+        return;
+      }
       event.preventDefault();
       history.push("/movies");
     }
@@ -23,7 +29,8 @@ function SearchBar() {
   };
   return (
     <Fragment>
-      <div className='px-24 my-4 flex items-center w-full'>
+      <div className='bg-transparent px-10 my-4 flex items-center'>
+    
         <input
           type='text'
           name='movieTitle'

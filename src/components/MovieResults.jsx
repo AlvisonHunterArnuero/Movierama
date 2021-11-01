@@ -4,8 +4,9 @@ import HomeButton from "./HomeButton";
 import Footer from "./Footer";
 import { Card } from "./Card";
 import { Spinner } from "./Spinner";
-function CardsMovies() {
+function MovieResults() {
   const { movies, setMovies, input, page } = useContext(DataContext);
+
   useEffect(() => {
     const getApi = async () => {
       const urlInfo = await fetch(
@@ -20,12 +21,16 @@ function CardsMovies() {
   return (
     <Fragment>
       <HomeButton />
-      <div className='grid grid-cols-2 gap-4'>
-        {movies ? movies.map((item) => <Card item={item} />) : <Spinner />}
+      <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4 my-3'>
+        {movies ? (
+          movies.map((item, ndx) => <Card key={ndx} item={item} />)
+        ) : (
+          <Spinner />
+        )}
       </div>
       <Footer />
     </Fragment>
   );
 }
 
-export default CardsMovies;
+export default MovieResults;

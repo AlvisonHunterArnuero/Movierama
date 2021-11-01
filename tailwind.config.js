@@ -1,11 +1,21 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'media', // or 'media' or 'class'
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    important: true,
+    extend: {
+      colors: {
+        card_primary_color: "var(--card-primary-color)",
+        card_title_color: "var(--card-title-color)",
+        card_secondary_color: "var(--card-secondary-color)",
+        card_bg_color: "var(--card-bg-color)",
+        card_error_color: "var(--card-error-color)",
+      },
+    },
   },
   variants: {
-    extend: {},
+    extend: {opacity: ['disabled'],},
   },
   plugins: [],
-}
+};
+
