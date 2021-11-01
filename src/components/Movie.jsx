@@ -9,7 +9,7 @@ const Movie = ({ match }) => {
   const notify = () => toast.success(`Successfully pulled details for ${chosenTitle|| 'this movie'}`);
   const getSingleMovieInfo = async () => {
     const url_info = await fetch(
-      `https://www.omdbapi.com/?i=${match.params.imdbID}&apikey=87c0c98e`
+      `https://www.omdbapi.com/?i=${match.params.imdbID}&apikey=${process.env.REACT_APP_API_KEY}`
     );
     const res_JSON = await url_info.json();
     setSingleMovie(res_JSON);

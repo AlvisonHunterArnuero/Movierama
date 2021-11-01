@@ -31,7 +31,7 @@ function HomePage() {
   randomMovie.push(rndTopMovies[Math.floor(Math.random() * rndTopMovies.length)]);
   const getApi = async () => {
     const urlInfo = await fetch(
-      `https://www.omdbapi.com/?apikey=87c0c98e&page=1&s=${randomMovie}`
+      `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&page=1&s=${randomMovie}`
     );
     const res_JSON = await urlInfo.json();
     setHomePage(res_JSON.Search);

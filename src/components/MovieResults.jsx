@@ -10,7 +10,7 @@ function MovieResults() {
   useEffect(() => {
     const getApi = async () => {
       const urlInfo = await fetch(
-        `https://www.omdbapi.com/?t=batman&apikey=87c0c98e&plot=full&page=${page}&s=${input.movieTitle}`
+        `https://www.omdbapi.com/?t=batman&apikey=${process.env.REACT_APP_API_KEY}&plot=full&page=${page}&s=${input.movieTitle}`
       );
       const res_JSON = await urlInfo.json();
       setMovies(res_JSON.Search);
