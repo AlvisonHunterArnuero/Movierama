@@ -9,7 +9,7 @@ export const Card = ({ item }) => {
   return (
     <div
       key={item.imdbID}
-      className='bg-black min-h-full overflow-hidden w-10/12 drop-shadow-2xl cursor-pointer mx-auto rounded'
+      className='transform hover:scale-95 transition duration-500 ease-in-out hover:opacity-75 bg-black min-h-full overflow-hidden w-10/12 cursor-pointer mx-auto rounded'
     >
       <Link
         to={`/movies/${item.imdbID}`}

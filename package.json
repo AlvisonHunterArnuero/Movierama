@@ -2,7 +2,7 @@
   "name": "movierama",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alvisonhunterarnuero.github.io/Movierama/",
+  "homepage": "https://alvisonhunterarnuero.github.io/Movierama",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@testing-library/jest-dom": "^5.11.4",

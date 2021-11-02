@@ -29,7 +29,7 @@ function SearchBar() {
   };
   return (
     <Fragment>
-      <div className='bg-transparent px-10 my-4 flex items-center'>
+      <div className='bg-transparent px-10 my-8 flex items-center'>
     
         <input
           type='text'

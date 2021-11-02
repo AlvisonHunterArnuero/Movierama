@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function HomeButton() {
   return (
     <Fragment>
-      <div className='grid place-items-center md:place-items-end md:mr-12  mt-4'>
-        <Link to='/'>
+      <div className='grid place-items-center md:place-items-end md:mr-12  my-8'>
+        <Link to='/homepage'>
           <button className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'

@@ -44,7 +44,7 @@ function HomePage() {
   return (
     <Fragment>
       <SearchBar />
-      <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-4'>
+      <div className='grid grid-cols gap-4 md:grid-cols-2 lg:grid-cols-3'>
         {homePage.map((item, ind) => (
           <Card key={ind} item={item} />
         ))}
