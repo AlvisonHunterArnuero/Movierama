@@ -1,7 +1,7 @@
 import React from "react";
-const MovieResults = React.lazy(() => import("./components/MovieResults"));
-const HomePage = React.lazy(() => import("./components/HomePage"));
 const Welcome = React.lazy(() => import("./components/Welcome"));
+const HomePage = React.lazy(() => import("./components/HomePage"));
+const MovieResults = React.lazy(() => import("./components/MovieResults"));
 const Movie = React.lazy(() => import("./components/Movie"));
 
 const routes = [
@@ -30,7 +30,7 @@ const routes = [
 		name: "Movie Details",
 		component: Movie,
 	},
-    { path: "*", exact: true, name: "Page Not Found", component: HomePage },
+    { path: "*", exact: true, name: "Page Not Found", component: Welcome },
 ];
 
 export default routes;
