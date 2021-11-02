@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/Movierama/static/css/main.e90ced57.chunk.css",
-    "main.js": "/Movierama/static/js/main.05e15ab6.chunk.js",
-    "main.js.map": "/Movierama/static/js/main.05e15ab6.chunk.js.map",
-    "runtime-main.js": "/Movierama/static/js/runtime-main.cc28f6a2.js",
-    "runtime-main.js.map": "/Movierama/static/js/runtime-main.cc28f6a2.js.map",
+    "main.css": "/Movierama/static/css/main.c9bf1950.chunk.css",
+    "main.js": "/Movierama/static/js/main.61609e3a.chunk.js",
+    "main.js.map": "/Movierama/static/js/main.61609e3a.chunk.js.map",
+    "runtime-main.js": "/Movierama/static/js/runtime-main.eb13d12f.js",
+    "runtime-main.js.map": "/Movierama/static/js/runtime-main.eb13d12f.js.map",
     "static/js/2.d031c956.chunk.js": "/Movierama/static/js/2.d031c956.chunk.js",
     "static/js/2.d031c956.chunk.js.map": "/Movierama/static/js/2.d031c956.chunk.js.map",
-    "static/js/3.9d1f914a.chunk.js": "/Movierama/static/js/3.9d1f914a.chunk.js",
-    "static/js/3.9d1f914a.chunk.js.map": "/Movierama/static/js/3.9d1f914a.chunk.js.map",
-    "static/js/4.40965cf7.chunk.js": "/Movierama/static/js/4.40965cf7.chunk.js",
-    "static/js/4.40965cf7.chunk.js.map": "/Movierama/static/js/4.40965cf7.chunk.js.map",
-    "static/js/5.93d06c6d.chunk.js": "/Movierama/static/js/5.93d06c6d.chunk.js",
-    "static/js/5.93d06c6d.chunk.js.map": "/Movierama/static/js/5.93d06c6d.chunk.js.map",
-    "static/js/6.f649f3b8.chunk.js": "/Movierama/static/js/6.f649f3b8.chunk.js",
-    "static/js/6.f649f3b8.chunk.js.map": "/Movierama/static/js/6.f649f3b8.chunk.js.map",
+    "static/js/3.750eb742.chunk.js": "/Movierama/static/js/3.750eb742.chunk.js",
+    "static/js/3.750eb742.chunk.js.map": "/Movierama/static/js/3.750eb742.chunk.js.map",
+    "static/js/4.f0b42af3.chunk.js": "/Movierama/static/js/4.f0b42af3.chunk.js",
+    "static/js/4.f0b42af3.chunk.js.map": "/Movierama/static/js/4.f0b42af3.chunk.js.map",
+    "static/js/5.4731902d.chunk.js": "/Movierama/static/js/5.4731902d.chunk.js",
+    "static/js/5.4731902d.chunk.js.map": "/Movierama/static/js/5.4731902d.chunk.js.map",
+    "static/js/6.85439079.chunk.js": "/Movierama/static/js/6.85439079.chunk.js",
+    "static/js/6.85439079.chunk.js.map": "/Movierama/static/js/6.85439079.chunk.js.map",
+    "static/js/7.6de7e109.chunk.js": "/Movierama/static/js/7.6de7e109.chunk.js",
+    "static/js/7.6de7e109.chunk.js.map": "/Movierama/static/js/7.6de7e109.chunk.js.map",
     "index.html": "/Movierama/index.html",
-    "static/css/main.e90ced57.chunk.css.map": "/Movierama/static/css/main.e90ced57.chunk.css.map",
+    "static/css/main.c9bf1950.chunk.css.map": "/Movierama/static/css/main.c9bf1950.chunk.css.map",
     "static/js/2.d031c956.chunk.js.LICENSE.txt": "/Movierama/static/js/2.d031c956.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc28f6a2.js",
+    "static/js/runtime-main.eb13d12f.js",
     "static/js/2.d031c956.chunk.js",
-    "static/css/main.e90ced57.chunk.css",
-    "static/js/main.05e15ab6.chunk.js"
+    "static/css/main.c9bf1950.chunk.css",
+    "static/js/main.61609e3a.chunk.js"
   ]
 }
