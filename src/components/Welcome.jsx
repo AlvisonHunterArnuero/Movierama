@@ -9,7 +9,7 @@ function Welcome() {
           <span className='font-bold uppercase tracking-widest'>
             Welcome to the world of
           </span>
-          <h1 className='text-7xl lg:text-9xl font-bold text-pink-500 hover:text-green-400'>
+          <h1 className='text-5xl sm:text-7xl lg:text-9xl font-bold text-pink-500 hover:text-green-400'>
             <Link to='/homepage'>Movierama</Link>
           </h1>
           <p className='font-light text-xl mb-1 text-yellow-300'>
